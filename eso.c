@@ -14,10 +14,11 @@ int main( int argc,char** argv )
 	printf("ting ting tiding!\n") ;
 
 	//Password verification
-	char pass[] = "5656\n" ;
+	char pass[] = "5656" ;
 	int nbytes = 5  ;
 	char* input = ( char* )malloc( sizeof( char )*100 )  ;
-	getline( &input,&nbytes,stdin ) ;
+	//getline( &input,&nbytes,stdin ) ;
+	scanf( "%s",input ) ;
 	//printf("input is : %sheh",input ) ;
 
 	if( strcmp( pass,input ) != 0 ){
@@ -71,6 +72,7 @@ int main( int argc,char** argv )
 	}
 	fclose( fpW ) ;
 
+	printf("<3\n") ;
 
 
 }
