@@ -46,7 +46,7 @@ int main( int argc,char** argv )
 		return -1 ;
 	}
 
-	unsigned char* newf  = ( unsigned char* )malloc( sizeof( unsigned char )*1129971 ) ;
+	unsigned char* newf  = ( unsigned char* )malloc( sizeof( unsigned char )*2000000 ) ;
 
 	int counter = 1 ;
 	int current ;
